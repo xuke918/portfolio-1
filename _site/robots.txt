@@ -1,0 +1,3 @@
+Sitemap: http://kexu.ca/sitemap.xml
+
+user-agent: *

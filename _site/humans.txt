@@ -1,0 +1,27 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Ke Xu <hey@kexu.ca>
+Site: http://kexu.ca
+Github: https://github.com/xuke918
+Location: Ottawa, Canada
+
+---
+
+#THANKS
+
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Git + GitHub
+
+
+## Hosting
+
+- Hover <http://hover.com>
