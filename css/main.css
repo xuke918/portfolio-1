@@ -1,0 +1,209 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.logo {
+  width: 10%;
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: white;
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav a {
+  font-family: 'Asap', sans-serif;
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.nav a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ nav-label {
+  background-color: grey;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.home {
+  padding-top: 2em;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  background-color: #f1f0a4;
+  overflow: hidden;
+}
+
+.banner-title {
+  font-family: 'Asap', sans-serif;
+  color: #fff;
+  margin: 0 0 1em;
+  text-align: center;
+  padding: 1em;
+}
+
+.intro {
+  font-family: 'PT Serif', serif;
+}
+
+.person {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.portfolio {
+  width: 100%;
+}
+
+.aboutme {
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+h1 {
+  font-family: 'Asap', sans-serif;
+}
+
+h2 {
+  font-family: 'Asap', sans-serif;
+}
+
+h3 {
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+footer {
+  background-color: #fce7f0;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.social-icons {
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  width: 10%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.copyright {
+  font-family: 'Asap', sans-serif;
+  margin: 0;
+}
+
+.work {
+  margin: 0;
+  padding-top: 60px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 42em) {
+
+  .banner-title {
+    text-align: left;
+    max-width: auto;
+    margin-bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(3, 85, 98, 0), rgba(93, 99, 99, .9) 90%);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .logo {
+    width: 5%;
+    padding: 5px;
+  }
+
+  .aboutme {
+    text-align: left;
+    margin: 60px 0 0;
+  }
+}
