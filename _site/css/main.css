@@ -56,7 +56,7 @@ header {
 }
 
 .nav a:hover {
-  background-color: black;
+  background-color: #e22227;
   color: #fff;
 }
 
@@ -127,7 +127,8 @@ header {
   font-family: 'PT Serif', serif;
 }
 
-.person {
+.sketche {
+  width: 100%;
   display: block;
   padding-top: 10px;
   margin-left: auto;
