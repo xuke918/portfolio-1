@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portfolio: a portfolio about Ke Xu who is a graphic designer in Ottawa.">
+  <meta property="og:title" content="Ke Xu">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="http://kexu.ca">
+  <meta property="og:image" content="">
+</head>
+
+<body>
+  <header>
+    <div class="banner">
+      <div>
+        <a href="{{site.baseurl}}/">
+          <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="">
+        </a>
+      </div>
+
+      <img class="img-flex" src="{{site.baseurl}}/images/banner.jpg">
+
+      <h1 class="banner-title yotta">HI THERE!</h1>
+      <nav>
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="nav-label" for="nav-check">
+          <img class="nav-open" src="{{site.baseurl}}/images/nav-icon.svg" alt="Open Navigation">
+          <img class="nav-close" src="{{site.baseurl}}/images/nav-icon-close.svg" alt="Close Navigation">
+        </label>
+        <ul class="nav yotta">
+          <li class="home"><a href="{{site.baseurl}}/">Home</a></li>
+          <li class="menu-item"><a href="{{site.baseurl}}/#about">About</a></li>
+          <li class="menu-item"><a href="{{site.baseurl}}/#work">Work</a></li>
+          <li class="menu-item"><a href="{{site.baseurl}}/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<main>
+  {{content}}
+</main>
+
+<footer id="contact">
+  <h3>613-890-4668<br>kexudesign@gmai.com</h3>
+  <ul class="social-icons center">
+    <li><a class="pinterest" href="https://www.pinterest.com/xuke3070/ke/"><img src="{{site.baseurl}}/images/pinterest.svg" alt=""></a></li>
+    <li><a class="instagram" href="https://instagram.com/xuke3070/"><img src="{{site.baseurl}}/images/instagram.svg" alt=""></a></li>
+    <li><a class="behance" href="https://www.behance.net/xu000151ddc6/"><img src="{{site.baseurl}}/images/behance.svg" alt=""></a></li>
+  </ul>
+  <p class="copyright pad-b micro center">© Ke Xu 2016</p>
+</footer>
+
+</body>
+<script src="{{site.baseurl}}/js/uncheck-nav.js"></script>
+</html>
