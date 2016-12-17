@@ -189,21 +189,10 @@ footer {
   text-align: center;
 }
 
-.pages {
-  position: absolute;
-  top: 200px;
-  right: 500px;
-  font-size: 100px;
-  display: block;
-  color: white;
-}
-
-.found {
-  position: absolute;
-  top: 300px;
-  right: 300px;
-  font-size: 20px;
-  display: block;
+.error {
+  font-size: 2em;
+  padding-top: 2em;
+  margin: 0;
 }
 
 @media only screen and (min-width: 42em) {
