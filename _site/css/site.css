@@ -1587,14 +1587,17 @@ header {
 
 h1 {
   font-family: 'Fira Sans Condensed', sans-serif;
+  color: #677387;
 }
 
 h2 {
   font-family: 'Fira Sans Condensed', sans-serif;
+  color: #677387;
 }
 
 h3 {
   font-family: 'Fira Sans Condensed', sans-serif;
+  color: #677387;
   text-align: center;
   margin: 0;
   font-size: 16px;
@@ -1621,6 +1624,7 @@ footer {
 .copyright {
   font-family: 'Fira Sans Condensed', sans-serif;
   margin: 0;
+  color: #677387;
 }
 
 .work {
