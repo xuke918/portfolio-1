@@ -47,7 +47,7 @@ header {
 }
 
 .nav a {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   display: block;
   padding: 0.5em;
   text-decoration: none;
@@ -116,7 +116,7 @@ header {
 }
 
 .banner-title {
-  font-family: 'Asap', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   color: #fff;
   margin: 0 0 1em;
   text-align: center;
@@ -124,7 +124,7 @@ header {
 }
 
 .intro {
-  font-family: 'PT Serif', serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .sketche {
@@ -140,21 +140,21 @@ header {
 }
 
 .aboutme {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   text-align: center;
   margin: 10px 0 10px 0;
 }
 
 h1 {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 h2 {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 h3 {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   text-align: center;
   margin: 0;
   font-size: 16px;
@@ -179,7 +179,7 @@ footer {
 }
 
 .copyright {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   margin: 0;
 }
 
